@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
@@ -64,16 +64,18 @@ body {
     2. Typografie
 ////////////////////////*/
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 p, span, a, li {
     font-size: 10px;
     font-weight: 300;
+    color: var(--color-black);
 }
 a {
     text-decoration: none;
 }
 h1 {
+    font-family: 'Merriweather', serif;
     font-size: 20px;
 }
 h2{
