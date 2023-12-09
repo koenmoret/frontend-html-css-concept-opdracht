@@ -8,7 +8,7 @@ Table of Contents:
         3.1 Header
         3.2 summary
         3.3 Projects
-        3.4 Cases
+        3.4 Services
         3.5 Support
         3.6 Footer
     4. Media
@@ -219,7 +219,8 @@ h4 {
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    max-width: 350px;
+    padding:  0 50px;
+    max-width: 450px;
 }
 
 .project-info-container p {
@@ -247,9 +248,36 @@ h4 {
 .project-image-wrapper img {
     box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.5);
 }
-.project-article-2 {
+.project-article-reverse {
     flex-direction: row-reverse;
 }
+/*///////////////
+3.4 Services
+///////////////*/
+#services > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.service-block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    color: var(--color-gray);
+    padding: 40px;
+    border: 1px solid var(--color-purple);
+}
+.service-tile-icon {
+    max-width: 60px;
+}
+.service-tile {
+
+}
+
 
 /*////////////////////////
     4. Media
