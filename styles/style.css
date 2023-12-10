@@ -70,6 +70,7 @@ body {
 img {
     width: 100%;
 }
+
 .btn {
     font-size: 16px;
     font-weight: 500;
@@ -110,27 +111,34 @@ h1, h2, h3, h4, h5 {
     font-family: 'Merriweather', serif;
     font-weight: 700;
 }
+
 h1 {
     font-size: 42px;
 }
+
 h2 {
     font-size: 30px;
 }
+
 h3 {
     font-size: 25px;
 }
+
 h4 {
     font-size: 20px;
 }
+
 h5 {
     font-size: 18px;
 }
+
 label, input, textarea {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: var(--color-gray);
 }
+
 input, textarea {
     display: block;
     width: 100%;
@@ -255,7 +263,7 @@ input, textarea {
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    padding:  0 50px;
+    padding: 0 50px;
     max-width: 450px;
 }
 
@@ -269,30 +277,36 @@ input, textarea {
     padding: 30px 0;
     max-width: 50px;
 }
+
 .view-project {
     padding: 30px 0;
     color: var(--color-purple);
     font-weight: 700;
     letter-spacing: 0.6px;
 }
+
 .project-image-wrapper {
     flex-basis: 800px;
     flex-grow: 0;
     flex-shrink: 1;
     /*padding: 50px 0;*/
 }
+
 .project-image-wrapper img {
     box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.5);
 }
+
 .project-article-reverse {
     flex-direction: row-reverse;
 }
+
 /*///////////////
 3.4 Services
 ///////////////*/
 #services .inner-container {
     padding: 80px 0;
 }
+
 #services .inner-container {
     display: flex;
     flex-direction: row;
@@ -300,6 +314,7 @@ input, textarea {
     flex-wrap: wrap;
     gap: 40px;
 }
+
 .service-block {
     display: flex;
     flex-direction: column;
@@ -312,13 +327,16 @@ input, textarea {
     border: 1px solid var(--color-purple);
     box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.25);
 }
+
 .service-tile-icon {
     max-width: 60px;
 }
+
 .service-tile {
     padding: 8px 0;
     color: var(--color-purple);
 }
+
 .service-block p {
     font-size: 16px;
     color: var(--color-gray);
@@ -330,16 +348,20 @@ input, textarea {
 #contact {
     background-color: var(--color-blue);
 }
+
 #contact .inner-container {
     flex-basis: 800px;
     padding: 70px 20px;
 }
+
 #contact h2 {
     font-size: 42px;
 }
+
 #contact p {
     padding: 30px 0 10px 0;
 }
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -347,18 +369,78 @@ input, textarea {
     padding: 20px 0;
     text-align: left;
 }
+
 #contact h2, #contact p, .contact-form label {
     color: var(--color-white);
 }
 
-.contact-form input,
-.contact-form textarea {
-
-}
 .contact-form .btn {
     align-self: center;
 }
 
+/*///////////////
+3.6 Footer
+///////////////*/
+#footer {
+    padding: 22px 0;
+    background-color: var(--color-black);
+}
+
+#footer p {
+    font-size: 14px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+
 /*////////////////////////
     4. Media
 ////////////////////////*/
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 36px;
+
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 32px;
+        padding: 20px 0;
+    }
+
+    h6 {
+        font-size: 22px;
+        line-height: 1.5;
+        padding: 12px 0;
+    }
+
+    #header nav {
+        justify-content: center;
+    }
+
+    #header nav ul {
+        justify-content: center;
+    }
+
+    #header nav a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .project-article {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .project-image-wrapper {
+        flex-basis: auto;
+        padding: 0 20px;
+    }
+
+    #services > div {
+        padding: 100px 0 50px 0;
+    }
+}
