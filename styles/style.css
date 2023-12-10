@@ -71,10 +71,10 @@ img {
     width: 100%;
 }
 .btn {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     color: var(--color-white);
     background-color: var(--color-pink);
     border: none;
@@ -124,6 +124,20 @@ h4 {
 }
 h5 {
     font-size: 18px;
+}
+label, input, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-gray);
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #7A7A7A;
+    border-radius: 4px;
+    background-color: var(--color-white);
 }
 
 /*////////////////////////
@@ -320,7 +334,13 @@ h5 {
     flex-basis: 800px;
     padding: 70px 20px;
 }
-#contact .contact-form {
+#contact h2 {
+    font-size: 42px;
+}
+#contact p {
+    padding: 30px 0 10px 0;
+}
+.contact-form {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -330,7 +350,12 @@ h5 {
 #contact h2, #contact p, .contact-form label {
     color: var(--color-white);
 }
-#contact .contact-form .btn {
+
+.contact-form input,
+.contact-form textarea {
+
+}
+.contact-form .btn {
     align-self: center;
 }
 
