@@ -91,24 +91,20 @@ img {
     cursor: pointer;
 }
 .slice-white {
-    position: absolute;
-    top: 20%;
+    margin-top: -48px;
     border-bottom: 48px solid white;
     border-right: 99vw solid transparent;
 }
-.slice-white span {
-    color: var(--color-light-gray);
-}
 .slice-light-gray {
-    width: 90%;
-    border-top: 50px solid transparent;
-    border-left: 100vw solid var(--color-light-gray);
+    margin-top: -48px;
+    border-top: 48px solid transparent;
+    border-left: 99vw solid var(--color-light-gray);
 }
 
 .slice-blue {
-    width: 90%;
-    border-top: 50px solid transparent;
-    border-left: 100vw solid var(--color-blue);
+    margin-top: -48px;
+    border-top: 48px solid transparent;
+    border-left: 99vw solid var(--color-blue);
 }
 
 /*////////////////////////
