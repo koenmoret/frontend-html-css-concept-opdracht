@@ -35,7 +35,7 @@ Table of Contents:
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
     width: 100%;
 }
 
@@ -46,6 +46,8 @@ Table of Contents:
     flex-basis: 1400px;
     flex-grow: 0;
     flex-shrink: 1;
+    margin: 0 20px;
+    z-index: 2;
 }
 
 /*////////////////////////
@@ -89,20 +91,22 @@ img {
     cursor: pointer;
 }
 .slice-white {
-    width: 100%;
-    margin-top: -50px;
-    border-top: 50px solid transparent;
-    border-left: 100vw solid var(--color-white);
-
+    position: absolute;
+    top: 20%;
+    border-bottom: 48px solid white;
+    border-right: 99vw solid transparent;
+}
+.slice-white span {
+    color: var(--color-light-gray);
 }
 .slice-light-gray {
-    width: 100%;
+    width: 90%;
     border-top: 50px solid transparent;
     border-left: 100vw solid var(--color-light-gray);
 }
 
 .slice-blue {
-    width: 100%;
+    width: 90%;
     border-top: 50px solid transparent;
     border-left: 100vw solid var(--color-blue);
 }
