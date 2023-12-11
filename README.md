@@ -32,7 +32,7 @@ Hiervoor heb je onder andere kennis nodig van pseudo-elementen, transities, het 
 van `z-index` om elementen boven elkaar te stapelen. Al deze technieken worden besproken in het bonushoofdstuk op
 EdHub (Hfst. 9).
 
-![browser-screenshot](./assets/screenshots/browser-screenshot.png)
+![browser-screenshot](assets/screenshots/basic/basic-desktop.png)
 
 *Let op:* bovenstaand voorbeeld bevat bonus-opdracht elementen!
 
@@ -135,7 +135,7 @@ een duidelijk plan voor jezelf over hoe je dit gaat aanpakken.
 </span>
 ```
 
-![image-screenshot](./assets/screenshots/image-screenshot.gif)
+![image-screenshot](assets/screenshots/image-screenshot.gif)
 
 Vervolgens geven we de afbeelding altijd een `width: 100%`, zodat ze altijd 100% van de *beschikbare ruimte* zullen
 innemen. Het wrapper-element krijgt vervolgens een maximale breedte mee (doormiddel van `max-width` of `flex-basis`),
