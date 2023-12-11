@@ -206,7 +206,7 @@ input, textarea {
 .nav-item a::after {
     content: "";
     display: block;
-    width: 0%;
+    width: 0;
     height: 2px;
     background-color: var(--color-pink);
     transition: width .35s ease-in-out;
@@ -490,7 +490,9 @@ input, textarea {
         flex-basis: auto;
         padding: 0 20px;
     }
-
+    .project-article:nth-of-type(even) {
+        flex-direction: row;
+    }
     #services > div {
         padding: 100px 0 50px 0;
     }
